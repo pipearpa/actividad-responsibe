@@ -1,0 +1,38 @@
+body{
+    font-family: 'Fasthand', cursive;
+    margin: 0;
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: brown;
+    display: flex;
+    min-height: 70px;
+    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+nav a{
+     font-weight: 600;
+     padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
